@@ -3,7 +3,7 @@ import sys
 
 import requests
 
-TOKEN = os.environ.get("BOT_TOKEN", "8939859952:AAFIkvwMD9W84KOkqPAMXHdJJb24LL3RGlQ")
+TOKEN = os.environ.get("BOT_TOKEN", "")
 CHAT_ID = os.environ.get("CHAT_ID")  # необязательно: ваш chat_id для тестового сообщения
 
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
